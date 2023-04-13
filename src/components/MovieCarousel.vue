@@ -61,6 +61,7 @@ export default {
 
 .carouselWrapper {
     position: relative;
+    margin-top: 2em;
 }
 
 .movieImage {

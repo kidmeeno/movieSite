@@ -131,7 +131,7 @@ export default {
         height: auto;
     }
     .bgImage {
-        height: auto;
+        height: 449px;
     }
 }
 </style>
