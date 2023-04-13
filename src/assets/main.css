@@ -1,0 +1,95 @@
+@import './base.css';
+
+#app {
+  margin-top: 80px;
+  font-weight: normal;
+}
+
+body {
+  background: #1B1F32;
+  font-family: 'Archivo';
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+.owl-carousel {
+  display: flex;
+  align-items: center;
+}
+
+.owl-carousel.owl-loaded {
+  position: relative;
+  padding-top: 40px;
+}
+
+.owl-nav {
+  position: absolute;
+  top: -1.5em;
+  right: 115.5px;
+  width: 84px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 38px;
+}
+
+.owl-carousel .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.owl-carousel .item img {
+  object-fit: cover;
+  /* max-width: 100%; */
+  /* height: auto; */
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (max-width: 2560px) {
+  .owl-carousel.owl-loaded {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  .owl-carousel.owl-loaded {
+    padding-left: 7%;
+    max-width: unset;
+    margin: unset;
+    /* padding: 0 2rem; */
+  }
+}
+
+/* @media (max-width: 1282px) {
+  .owl-carousel.owl-loaded {
+    padding-left: 10em;
+  }
+} */
+
+@media (max-width: 1024px) {
+  .owl-carousel.owl-loaded {
+    padding-left: 1.5%;
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .owl-nav {
+    right: 31.5px;
+  }
+}
