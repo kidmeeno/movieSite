@@ -1,6 +1,6 @@
 # Welcome
 
-This is a test project. We used VUE for this project as it is part of the requirements for developing this test project. I enjoyed writing this project with Vue. Just follow the Project set up command as you can see bellow and everything will be alright.
+This is a test project. I used Vue for this project as it is part of the requirements for developing this test project. I enjoyed writing this project with Vuew. Just follow the Project set up command as you can see bellow and everything will be alright.
 
 
 # movieSite
