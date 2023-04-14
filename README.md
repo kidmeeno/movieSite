@@ -1,6 +1,6 @@
 # Welcome
 
-This is basically a test project. My name is Arthur. I am strong at using react to develop software solutions, but be it as it may. We used VUE for this project as it is part of the requirements for developing this test project. This readme i believe is straight farword. There no extra process required in running this project. Just follow the Project set up command as you can see bellow and everything will be alright.
+This is a test project. I used Vue for this project as it is part of the requirements for developing this test project. I enjoyed writing this project with Vuew. Just follow the Project set up command as you can see bellow and everything will be alright.
 
 
 # movieSite
