@@ -28,7 +28,7 @@ export default {
 
 nav {
     max-width: 1280px;
-    margin: 24px auto;
+    margin: 20.5px auto;
     display: flex;
     padding: 0 2rem;
     justify-content: space-between;

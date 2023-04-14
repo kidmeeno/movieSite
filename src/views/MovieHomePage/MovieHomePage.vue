@@ -69,6 +69,7 @@ export default {
             this.movieToDisplay = this.displayOneMovie(data[2].items);
             this.isLoading = false;
         }
+        window.scrollTo(0, 0);
     },
 };
 </script>

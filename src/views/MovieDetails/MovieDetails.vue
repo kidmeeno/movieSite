@@ -47,6 +47,7 @@ export default {
         }
     },
     mounted() {
+        window.scrollTo(0, 0);
         /* due to the fact that IMDB have restriction to a number of request you can make to there api in a space of 24hours, 
         I decided to catch the first data gotten for development purpose. This will not be the case for  life project.*/
         const catchedMovieActors = JSON.parse(localStorage.getItem("movieActors"));
@@ -60,7 +61,6 @@ export default {
         if (!catchedMovieActors) {
             localStorage.setItem("movieActors", JSON.stringify({}));
             this.fetchData
-            console.log(movieId,"movieId",catchedMovieActors);
         }
         if (catchedMovieActors[movieId]) {
             this.movieActors = catchedMovieActors[movieId]
