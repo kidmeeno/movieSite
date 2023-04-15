@@ -134,4 +134,12 @@ export default {
         height: 449px;
     }
 }
+@media (max-width: 425) {
+    .bgImage {
+        height: 498px;
+    }
+    .wrapper {
+        height: 515px;
+    }
+}
 </style>
