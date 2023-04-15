@@ -128,11 +128,10 @@ export default {
 @media (max-width: 766px) {
     .wrapper {
         margin-bottom: 0px;
-        padding: 105px 0px 121px 0;
-        /* height: auto; */
+        height: auto;
     }
     .bgImage {
-        /* height: 449px; */
+        height: 449px;
     }
 }
 </style>
