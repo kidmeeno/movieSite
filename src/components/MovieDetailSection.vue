@@ -7,13 +7,13 @@
             <section class="introSection row">
                 <div class="content col-md-6 p-0">
                     <p class=""><span>Featured</span> | {{movieDetails.year}} | Action, Sci-Fi, Drama</p>
-                    <h1>{{movieDetails.title}}</h1>
-                    <div class="d-flex align-items-center">
+                    <h1 class="mb-2">{{movieDetails.title}}</h1>
+                    <div class="d-flex align-items-center mb-3">
                         <img src="../assets/star.svg" />
                         <p class="my-0 mx-1">{{movieDetails.imDbRating||'N/A'}}</p>
                         <div class="ageRatingBox mx-2">{{movieDetails.contentRating||'N/A'}}</div>
                     </div>
-                    <p>{{movieDetails?.plot||'We dont have summary on this one. But surely you can tell from the cover it is going to be a fun watch. Have fun! :)'}}</p>
+                    <p class="mb-4">{{movieDetails?.plot||'We dont have summary on this one. But surely you can tell from the cover it is going to be a fun watch. Have fun! :)'}}</p>
                     <div class="buttonGroup">
                         <button class="watchNowBtn"><img src="../assets/play-circle.svg" class="mx-2"/>Watch now</button>
                         <button v-if="!hideLearnBtn" class="learnMoreBtn"><img src="../assets/info-circle.svg" class="mx-2"/>Learn more</button>
